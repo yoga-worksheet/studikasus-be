@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 const {dbHost, dbPass, dbName, dbPort, dbUser, mongoUri} = require('../app/config');
 
-const database = 
-        mongoUri || `mongodb://${dbUser}:${dbPass}@${dbHost}:${dbPort}/${dbName}?authSource=admin`;
+// const database = mongoUri || `mongodb://${dbUser}:${dbPass}@${dbHost}:${dbPort}/${dbName}?authSource=admin`;
+const database = mongoUri;
 
 
 
